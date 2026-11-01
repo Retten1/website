@@ -3,24 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OPNsense Project - Daan Weltens</title>
-  <!-- ../ betekent: ga één map omhoog naar de root waar style.css staat -->
+  <title>Proxmox Project - Daan Weltens</title>
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-  <div class="container">
-    <nav>
-      <h1>Daan Weltens.</h1>
-      <ul>
-        <!-- Link terug naar de homepage -->
-        <li><a href="../index.html">#home</a></li>
-      </ul>
-    </nav>
 
+  <nav>
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+      <h1>Daan Weltens</h1>
+      <ul>
+        <li><a href="../index.html">#home</a></li>
+        <li><a href="../index.html#Projecten">#Projecten</a></li>
+        <li><a href="../index.html#skills">#skills</a></li>
+        <li><a href="../index.html#contact">#contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <h2>Project: <span>Proxmox Deployment</span></h2>
+      <p>Researching and deploying a open-source variant of vSphere in my local homelab environment.</p>
+    </div>
+  </header>
+
+  <main class="container">
     <section>
-      <h2 class="section-title">OPNsense Research & Deployment</h2>
-      <p></p>
+      <h2 class="section-title">Project description</h2>
+      <p style="color: #aaa; line-height: 1.6; margin-bottom: 20px;">
+        For this project, I am researching and implementing Proxmox on my home network.
+        The goal is to learn about virtualization en containerization.
+      </p>
+
+      <h3 style="margin: 20px 0 10px 0; color: #fff;">What I've accomplished so far:</h3>
+      <ul style="color: #aaa; margin-left: 20px; line-height: 1.8; margin-bottom: 30px;">
+        <li> Installation and configuring proxmox and learning about clustering. </li>
+        <li> Learning about LXC containers and the different with VMs. </li>
+        <li> Pulling OCI images and research the different with docker images. </li>
+      </ul>
+
+      <!-- Knop om terug te gaan -->
+      <a href="../index.html#Projecten" class="btn">Back to Projects</a>
     </section>
-  </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="container">
+    <p>© 2026 - Portfolio Daan Weltens</p>
+  </footer>
+
 </body>
 </html>
